@@ -10,7 +10,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Clone the shell-bot repository
-RUN git clone https://github.com/botgram/shell-bot.git && \
+RUN git clone https://github.com/gilak11/shell-bot.git && \
     cd shell-bot && \
     npm install
 
